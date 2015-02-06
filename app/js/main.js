@@ -10,9 +10,6 @@ $(document).ready(function() {
     var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
     $.each(markers, function(name, meta) {
-      console.log(name);
-      console.log(meta.lng);
-
       // Create a marker for the current object.
       var currLatlng = new google.maps.LatLng(meta.lat, meta.lng);
 
