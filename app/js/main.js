@@ -49,14 +49,6 @@ $(document).ready(function() {
   google.maps.event.addDomListener(window, 'load', drawMarkers);
   google.maps.event.addDomListener(map, 'idle', drawMarkers);
 
-  var markers = $('#map-canvas').gmap3({
-    action:'get',
-    name:'marker',
-    all:true
-  });
-
-  console.log(markers);
-
   var markers = {
     '2creative' : {
       'title'   : '2Creative',
