@@ -1,52 +1,61 @@
 $(document).ready(function() {
+  // Create the map, center it on Gothenburg and add it to our canvas in the
+  // DOM.
+  var mapOptions = {
+    center: { lat: 57.7063539, lng: 11.9619285 },
+    zoom: 14
+  };
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+  var overlay = new google.maps.OverlayView();
+  overlay.draw = function() {};
+  overlay.setMap(map);
 
-  function initialize() {
-    // Create the map, center it on Gothenburg and add it to our canvas in the
-    // DOM.
-    var mapOptions = {
-      center: { lat: 57.7063539, lng: 11.9619285 },
-      zoom: 14
-    };
-    var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
+  function drawMarkers() {
     $.each(markers, function(id, meta) {
       // Append a tooltip for each marker
       var tooltipID = id + '-tooltip';
-      $('body').append('<div class="tooltip" id="' + tooltipID + '">');
+      $('#map-canvas').append('<div class="tooltip" id="' + tooltipID + '">');
 
       // Create a marker for the current object.
       var currLatlng = new google.maps.LatLng(meta.lat, meta.lng);
 
       // Add the marker to the map.
       var marker = new google.maps.Marker({
-          position: currLatlng,
-          map: map,
-          title: meta.title,
+        position: currLatlng,
+        map: map,
+        title: meta.title,
       });
 
-      google.maps.event.addListener(marker, 'mouseover', function (event) {
-          $("#" + tooltipID + "").css("left", mouse.x + "px").css("top", (mouse.y - 20) + "px").attr("title", this.title).tooltip('show');
+      // Get the x and y position of each marker on the map.
+      var pos = marker.getPosition();
+      var proj = overlay.getProjection();
+      var p = proj.fromLatLngToContainerPixel(pos);
+      var markerX = Math.round(p.x);
+      var markerY = Math.round(p.y);
+
+      google.maps.event.addListener(marker, 'mouseover', function() {
+        $("#" + tooltipID + "")
+          .css("left", markerX + "px")
+          .css("top", (markerY - 40) + "px")
+          .attr("title", marker.title).tooltip('show');
       });
 
-      google.maps.event.addListener(marker, 'mouseout', function (event) {
-          $("#" + tooltipID + "").tooltip('hide');
+      google.maps.event.addListener(marker, 'mouseout', function() {
+        $("#" + tooltipID + "").tooltip('hide');
       });
     });
   }
 
-  google.maps.event.addDomListener(window, 'load', initialize);
+  google.maps.event.addDomListener(window, 'load', drawMarkers);
+  google.maps.event.addDomListener(map, 'idle', drawMarkers);
 
-  // Mouse pisition
-  var mouse = {
-    x: 0,
-    y: 0
-  };
+  var markers = $('#map-canvas').gmap3({
+    action:'get',
+    name:'marker',
+    all:true
+  });
 
-  document.addEventListener('mousemove', function (e) {
-      mouse.x = e.clientX || e.pageX;
-      mouse.y = e.clientY || e.pageY
-  }, false);
-
+  console.log(markers);
 
   var markers = {
     '2creative' : {
