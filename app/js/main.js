@@ -12,9 +12,11 @@ $(document).ready(function() {
 
   function drawMarkers() {
     $.each(markers, function(id, meta) {
-      // Append a tooltip for each marker
+      // Draw a tooltip placeholder if it isn't already drawn.
       var tooltipID = id + '-tooltip';
-      $('#map-canvas').append('<div class="tooltip" id="' + tooltipID + '">');
+      if ($('#map-canvas').find($("#" + tooltipID + "")).length == 0) {
+        $('#map-canvas').append('<div class="tooltip" id="' + tooltipID + '">');
+      }
 
       // Create a marker for the current object.
       var currLatlng = new google.maps.LatLng(meta.lat, meta.lng);
