@@ -56,8 +56,8 @@ var studios = {
   'dear-friends' : {
     'title'   : 'Dear Friends',
     'website' : 'http://dearfriends.se/',
-    'lat'     : 57.710033,
-    'lng'     : 11.937117
+    'lat'     : 57.7086734,
+    'lng'     : 11.9631469
   },
   'dfind-it' : {
     'title'   : 'Dfind IT',
