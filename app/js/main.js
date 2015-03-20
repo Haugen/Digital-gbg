@@ -125,6 +125,12 @@ var studios = {
     'lat'     : 57.7067147,
     'lng'     : 11.9837918
   },
+  'fullyflared' : {
+    'title'   : 'Fully Flared',
+    'website' : 'http://fullyflared.se/',
+    'lat'     : 57.7035561,
+    'lng'     : 11.9651989
+  },
   'hiq' : {
     'title'   : 'HiQ',
     'website' : 'http://www.hiq.se/',
