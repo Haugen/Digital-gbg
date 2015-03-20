@@ -1,28 +1,4 @@
 var studios = {
-  '2creative' : {
-    'title'   : '2Creative',
-    'website' : 'http://www.2creative.se/',
-    'lat'     : 57.7076072,
-    'lng'     : 11.9812482
-  },
-  'advice-solutions' : {
-    'title'   : 'Advice Solutions',
-    'website' : 'http://www.advisesolutions.se/',
-    'lat'     : 57.6974797,
-    'lng'     : 11.9875654
-  },
-  'be-better-online' : {
-    'title'   : 'Be Better Online',
-    'website' : 'http://www.bebetteronline.se/',
-    'lat'     : 57.6996013,
-    'lng'     : 11.9366224
-  },
-  'bolero' : {
-    'title'   : 'Bolero',
-    'website' : 'http://www.bolero.se/',
-    'lat'     : 57.705505,
-    'lng'     : 11.9929995
-  },
   'bullet' : {
     'title'   : 'Bullet',
     'website' : 'http://bullet.se/',
