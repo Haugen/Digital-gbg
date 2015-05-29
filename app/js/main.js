@@ -167,6 +167,12 @@ var studios = {
     'lat'     : 57.7038956,
     'lng'     : 11.9688672
   },
+  'kntnt' : {
+    'title'   : 'Kntnt',
+    'website' : 'http://www.kntnt.com/',
+    'lat'     : 57.7071256,
+    'lng'     : 11.9397961
+  },
   'kodamera' : {
     'title'   : 'Kodamera',
     'website' : 'http://www.kodamera.se/',
