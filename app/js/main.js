@@ -11,6 +11,12 @@ var studios = {
     'lat'     : 57.7086734,
     'lng'     : 11.9631469
   },
+  'fullyflared' : {
+    'title'   : 'Fully Flared',
+    'website' : 'http://fullyflared.se/',
+    'lat'     : 57.7035561,
+    'lng'     : 11.9651989
+  },
   'humblebee' : {
     'title'   : 'Humblebee',
     'website' : 'http://humblebee.se/',
@@ -65,11 +71,11 @@ var studios = {
     'lat'     : 57.713406,
     'lng'     : 11.9676541
   },
-  'raket' : {
-    'title'   : 'Raket',
-    'website' : 'http://www.raketwebbyra.se/',
-    'lat'     : 57.699575,
-    'lng'     : 11.9650444
+  'rapidimages' : {
+    'title'   : 'RapidImages',
+    'website' : 'https://www.rapidimages.se/',
+    'lat'     : 57.688637,
+    'lng'     : 11.906477
   },
   'schimpanz' : {
     'title'   : 'Schimpanz',
@@ -94,6 +100,12 @@ var studios = {
     'website' : 'http://valentin.se/',
     'lat'     : 57.7040412,
     'lng'     : 11.9671915
+  },
+  'vaimo' : {
+    'title'   : 'Vaimo',
+    'website' : 'http://www.raketwebbyra.se/',
+    'lat'     : 57.7031889,
+    'lng'     : 11.9885221
   },
 };
 
