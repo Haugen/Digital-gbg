@@ -149,6 +149,12 @@ var studios = {
     'lat'     : 57.703735,
     'lng'     : 11.962217
   },
+  'icomera' : {
+    'title'   : 'Icomera',
+    'website' : 'http://www.icomera.com/',
+    'lat'     : 57.7142204,
+    'lng'     : 11.9751068
+  },
   'inuse' : {
     'title'   : 'Inuse',
     'website' : 'http://www.inuse.se/',
@@ -167,6 +173,12 @@ var studios = {
     'lat'     : 57.6997764,
     'lng'     : 11.9487528
   },
+  'kokokaka' : {
+    'title'   : 'Kokokaka',
+    'website' : 'http://kokokaka.com/',
+    'lat'     : 57.6999532,
+    'lng'     : 11.9668093
+  },
   'knowit' : {
     'title'   : 'Knowit',
     'website' : 'http://www.knowit.se/',
@@ -179,11 +191,23 @@ var studios = {
     'lat'     : 57.6811984,
     'lng'     : 12.0007895
   },
+  'lineducation' : {
+    'title'   : 'Lin Education',
+    'website' : 'http://lineducation.se/',
+    'lat'     : 57.708201,
+    'lng'     : 11.944475
+  },
   'linderoths' : {
     'title'   : 'Linderoths',
     'website' : 'https://linderoths.se/',
     'lat'     : 57.7032268,
     'lng'     : 11.9655714
+  },
+  'lexicon' : {
+    'title'   : 'Lexicon',
+    'website' : 'http://www.lexicon.se/',
+    'lat'     : 57.7058928,
+    'lng'     : 11.9650142
   },
   'lundgren-lindqvist' : {
     'title'   : 'Lundgren+Lindqvist',
@@ -196,6 +220,12 @@ var studios = {
     'website' : 'http://madepeople.se/',
     'lat'     : 57.7029277,
     'lng'     : 11.9568957
+  },
+  'maverick-by-sigma' : {
+    'title'   : 'Maverick by Sigma',
+    'website' : 'http://maverickbysigma.se/',
+    'lat'     : 57.7079395,
+    'lng'     : 11.9403807
   },
   'mild-media' : {
     'title'   : 'Mild Media',
@@ -221,6 +251,12 @@ var studios = {
     'lat'     : 57.7063865,
     'lng'     : 11.9614117
   },
+  'netconsult' : {
+    'title'   : 'NetConsult',
+    'website' : 'https://www.netconsult.se',
+    'lat'     : 57.7071256,
+    'lng'     : 11.9397961
+  },
   'nethouse' : {
     'title'   : 'Nethouse',
     'website' : 'http://www.nethouse.se/',
@@ -245,6 +281,12 @@ var studios = {
     'lat'     : 57.7029201,
     'lng'     : 11.9617392
   },
+  'oddwork' : {
+    'title'   : 'OddWork',
+    'website' : 'http://oddwork.se/',
+    'lat'     : 57.6983193,
+    'lng'     : 11.9759941
+  },
   'omega-point' : {
     'title'   : 'Omega Point',
     'website' : 'http://www.omegapoint.se/',
@@ -256,6 +298,12 @@ var studios = {
     'website' : 'http://www.ottoboni.se/',
     'lat'     : 57.713406,
     'lng'     : 11.9676541
+  },
+  'pinya-group' : {
+    'title'   : 'Pinya Group',
+    'website' : 'http://www.pinyagroup.com/',
+    'lat'     : 57.6906469,
+    'lng'     : 11.9715639
   },
   'prevas' : {
     'title'   : 'Prevas',
@@ -377,11 +425,23 @@ var studios = {
     'lat'     : 57.7030576,
     'lng'     : 11.9649688
   },
+  'teveo' : {
+    'title'   : 'Teveo',
+    'website' : 'http://www.teveo.se/',
+    'lat'     : 57.7404784,
+    'lng'     : 12.0912217
+  },
   'understandit' : {
     'title'   : 'UnderstandIt',
     'website' : 'https://understandit.se/',
     'lat'     : 57.7029101,
     'lng'     : 11.9617290
+  },
+  'vaimo' : {
+    'title'   : 'Vaimo',
+    'website' : 'http://www.vaimo.com/',
+    'lat'     : 57.7126127,
+    'lng'     : 11.9935485
   },
   'valentin-byhr' : {
     'title'   : 'Valentin&Byhr',
