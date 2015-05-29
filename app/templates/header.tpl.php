@@ -9,7 +9,7 @@
 
   <title>Digital gbg</title>
 
-  <link href="css/main.css" rel="stylesheet">
+  <link href="app/css/main.css" rel="stylesheet">
 </head>
 
 <body>
