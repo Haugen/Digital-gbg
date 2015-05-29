@@ -170,8 +170,8 @@ var studios = {
   'kntnt' : {
     'title'   : 'Kntnt',
     'website' : 'http://www.kntnt.com/',
-    'lat'     : 57.7071256,
-    'lng'     : 11.9397961
+    'lat'     : 57.7071356,
+    'lng'     : 11.9397861
   },
   'kodamera' : {
     'title'   : 'Kodamera',
