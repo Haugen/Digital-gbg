@@ -1,3 +1,3 @@
-# Readme
+# Digital gbg
 
-A base for quickly starting small, simple vanilla projects.
+An overview over companies in Gothenburg that in one way or another do web development.
