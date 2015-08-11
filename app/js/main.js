@@ -11,6 +11,12 @@ var studios = {
     "lat"     : 57.6974797,
     "lng"     : 11.9875654
   },
+  "alten" : {
+    "title"   : "Alten Sverige AB",
+    "website" : "http://www.alten.se/",
+    "lat"     : 57.706253,
+    "lng"     : 11.944346
+  },
   "be-better-online" : {
     "title"   : "Be Better Online",
     "website" : "http://www.bebetteronline.se/",
