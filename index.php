@@ -3,6 +3,8 @@
 include('app/templates/header.tpl.php');
 ?>
 
+Malin e go!
+
 <div id="map-canvas"></div>
 
 <?php
